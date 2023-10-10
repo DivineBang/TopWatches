@@ -40,6 +40,7 @@ ul,li{
 
 .watches{
   padding: 100px 0;
+
   
   .search{
     display: flex;
@@ -56,10 +57,10 @@ ul,li{
       cursor: pointer;
 
     }
-  }a
-
+  }
   .card__set{
     display: flex;
+    
     flex-wrap: wrap;
     padding: 50px 0;
     gap: 40px;
@@ -109,11 +110,7 @@ ul,li{
 		max-width: 1140px;
 	}
 
-  .watches{
-    .card__set{
-      justify-content: center;
-    }
-  }
+  
    
 }
 

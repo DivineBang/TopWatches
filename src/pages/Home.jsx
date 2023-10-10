@@ -33,17 +33,17 @@ function Home () {
                         </svg>
                     )}
                 </div>
-                <div className="cards__set">     
-                    <div className="card__set">
+            
+              
+                <div className="card__set">
                     {items.filter((obj) => obj.title.toLowerCase().includes(search.toLowerCase())).map((obj,index) =>(
 
                         <Card  key={index} addEd={isItemAdded(obj && obj.id)} onCard={(product) => addToCard(product)}  imgCard={obj.img} modelCard={obj.model}  titleCard={obj.title} priceCard={obj.price} />
 
                     )) 
                     }              
-                    </div>
-
-                </div>       
+                </div>
+            
                 <Link to='/shop'>
                     <div className="next">
                         <svg  className="next__img" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,9 +53,9 @@ function Home () {
                     </div>
                 </Link>
                   
+                </div>
             </div>
-      
-     </div>
+     
     );
 }
 
