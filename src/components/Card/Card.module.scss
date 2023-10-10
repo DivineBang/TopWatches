@@ -1,0 +1,78 @@
+
+.card{
+    width: 290px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+   
+    box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    
+    .card__set{
+        width: 250px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        p{
+            
+            text-align: center;
+            font-family: 'Ubuntu Mono';
+            font-size: 12px;  
+            margin: 0;
+            padding: 20px 0;
+        }
+        h4{
+            text-align: center;
+            font-size: 18px;
+            font-family: Tahoma;
+        }
+        .btn__card{ 
+            width: 180px;
+            height: 70px;
+            margin: 10px auto 0;
+            cursor: pointer;   
+            gap: 5px;
+            font-family: Tahoma;
+            color: #FFF;
+            font-size: 15px;
+            border-radius: 10px;
+            background:  #186049;
+
+            &:hover{
+                background: #0FA958;
+               
+            }
+            .btn__car_mod{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+               
+                span{
+                    font-size: 18px;
+                    font-family: 'Ubuntu Mono';
+                }
+            }
+            
+           
+        }
+        .btn__card_action{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 180px;
+            height: 70px;
+            margin: 10px auto 0 ;
+            cursor: pointer;
+            border-radius: 10px;
+           
+            background:  #FD7E14;
+        }
+
+    }
+    .card__img{
+        width: 250px;
+        height: 250px;
+    }
+
+
+}

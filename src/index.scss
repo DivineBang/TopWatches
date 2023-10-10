@@ -1,0 +1,152 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 18px;
+  background: #FFFCF9;
+  color: #000;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*   в форме убирает контур  */
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700; 
+  color: #000;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  max-width: 100%; 
+}
+ul,li{
+  display: block;
+  padding: 0;
+  margin: 0; 
+}
+
+.watches{
+  padding: 100px 0;
+  
+  .search{
+    display: flex;
+    padding-top: 30px;
+
+    .search__close{
+      width: 25px;
+      height:25px;
+      border-radius: 5px;
+      border: 1px solid #186049;
+   
+      margin: auto  15px;
+      cursor: pointer;
+
+    }
+  }
+
+  .card__set{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 40px;
+  }
+  .title__first{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 500px;
+    span{
+        color: #186049;
+    }
+  }
+  .title__second{
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    color: #000;
+    text-align: center;   
+    padding-top: 25px;   
+  }
+  .next{
+    display: flex;
+    width: 200px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+      
+    .next__img{
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      background: #000;
+      border-radius: 50%;
+    }
+  }
+}
+/*1200-1400*/
+@media screen and (max-width:1399px) {
+	.row>* {
+    width: auto ;
+  
+  }
+  .container-xxl{
+		max-width: 1140px;
+	}
+
+  .watches{
+    .card__set{
+      justify-content: center;
+    }
+  }
+   
+}
+
+/*992-1199*/
+@media screen and (max-width:1199px) {
+	
+}
+
+/*768-991*/
+@media screen and (max-width:991px){
+	
+}	
+
+/*576-767*/
+@media screen and (max-width:767px){
+
+  
+    
+	
+}
+/*458-575*/
+@media screen and (max-width:575px){
+	
+    
+    
+}
+/*375-457*/
+@media screen and (max-width:457px){
+
+     
+    
+}
+/*320-374*/
+@media screen and (max-width:374px){
+	
+    
+}

@@ -1,0 +1,118 @@
+.offer{
+    padding: 50px 0;
+}
+.offer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    height: 100%;
+
+    span{
+        color: #1A3A32;
+        font-family: 'Ubuntu Mono';    
+    }
+    h1{
+        font-size: 40px; 
+        padding: 30px 0 17px;
+    }
+    .btn__set{
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+
+        .btn__offer_first{
+            width: 180px;
+            padding: 14px 37px;
+            border-radius: 50px;
+            background: #186049;
+            text-align: center;
+            color: #FFF;
+            font-size: 15px;
+
+            &:hover{
+                color: #000;
+                transition:  0.2s ease-in-out;
+                background: rgba(253, 126, 20, 0.70);
+    
+            }
+        }
+        
+        .btn__offer_second{
+            display: flex;
+            align-items: center;
+            
+            gap: 10px;
+            width: 180px;
+            padding: 14px 29px 14px 23px;
+            border-radius: 50px;
+            background: #ffffff;
+            border: 0.5px solid #000;
+            text-align: center;
+            color: #000;
+            font-size: 15px;
+
+            &:hover{
+                color: #fff;
+                transition:  0.2s ease-in-out;
+                background: #000;
+    
+                path {
+                    stroke: #fff; 
+                    transition: stroke 0.2s ease-in-out;
+                }
+            }
+        }
+        
+    }
+}
+.offer__right{
+    width: 725px;
+}
+
+/*1200-1400*/
+@media screen and (max-width:1399px) {
+	
+    .offer__right{
+        width: 100%;
+    }
+   
+
+    
+   
+}
+
+/*992-1199*/
+@media screen and (max-width:1199px) {
+	
+}
+
+/*768-991*/
+@media screen and (max-width:991px){
+	
+}	
+
+/*576-767*/
+@media screen and (max-width:767px){
+
+  
+    
+	
+}
+/*458-575*/
+@media screen and (max-width:575px){
+	
+    
+    
+}
+/*375-457*/
+@media screen and (max-width:457px){
+
+     
+    
+}
+/*320-374*/
+@media screen and (max-width:374px){
+	
+    
+}

@@ -1,0 +1,96 @@
+.header{
+    padding: 25px 0;
+   
+    .logo{
+        height: 100%;
+    }
+    .menu{
+        height: 100%;
+
+        .menu__item{
+            color: #000;
+            font-family: Ubuntu;
+            font-size: 20px;
+    
+            a{
+                color: #000;
+            }
+        }
+        .menu__item:not(:first-child){
+            margin-left: 30px;
+        } 
+    }  
+
+    .cart__item{
+        margin-right: 15px;
+
+        a{
+            padding: 11px 25px;
+            border-radius: 50px;
+            background: #186049;
+            text-align: center;
+            color: #FFF;
+            font-size: 15px;
+        }
+        a:hover{
+            color: #000;
+            transition:  0.2s ease-in-out;
+            background: rgba(253, 126, 20, 0.70);
+
+        }
+    }
+    .cart__item_img{
+        width: 40px;
+        height: 40px;
+        border: 0.5px solid #000;
+        border-radius: 50%;
+        stroke-width: 0.5px;
+        cursor: pointer;
+        padding: 5px;
+        
+    }
+    
+    
+
+
+}
+/*1200-1400*/
+@media screen and (max-width:1399px) {
+	
+   
+}
+
+/*992-1199*/
+@media screen and (max-width:1199px) {
+	
+}
+
+/*768-991*/
+@media screen and (max-width:991px){
+	
+}	
+
+/*576-767*/
+@media screen and (max-width:767px){
+
+  
+    
+	
+}
+/*458-575*/
+@media screen and (max-width:575px){
+	
+    
+    
+}
+/*375-457*/
+@media screen and (max-width:457px){
+
+     
+    
+}
+/*320-374*/
+@media screen and (max-width:374px){
+	
+    
+}
