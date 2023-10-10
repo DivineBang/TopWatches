@@ -127,6 +127,13 @@ ul,li{
 	.container-xxl{
 		max-width: 720px;
 	}
+  .watches{
+    .card__set{
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  
 }	
 
 /*576-767*/
@@ -142,7 +149,7 @@ ul,li{
 @media screen and (max-width:575px){
 	.container{
 		width: 100%;
-		padding: 0 15px;
+		padding: 0 10px;
         	max-width: 100%;
 	}
   .watches{
@@ -160,9 +167,17 @@ ul,li{
 @media screen and (max-width:457px){
   .container{
 		width: 100%;
-		padding: 0 15px;
+		padding: 0 10px;
         	max-width: 100%;
 	}
+  .watches{
+    .card__set{
+      width: 100%;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 0;
+    }
+  }
      
     
 }
@@ -170,7 +185,7 @@ ul,li{
 @media screen and (max-width:374px){
 	.container{
 		width: 100%;
-		padding: 0 15px;
+		padding: 0 10px;
         	max-width: 100%;
 	}
     

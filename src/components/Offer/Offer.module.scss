@@ -128,7 +128,15 @@
 /*375-457*/
 @media screen and (max-width:457px){
 
-     
+    .offer{
+        .offer__left{
+            .btn__set{
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+    }
     
 }
 /*320-374*/

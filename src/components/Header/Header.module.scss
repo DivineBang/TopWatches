@@ -98,7 +98,15 @@
 /*375-457*/
 @media screen and (max-width:457px){
 
-     
+    .header{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        .logo{
+            margin: 0;
+        }
+    }
     
 }
 /*320-374*/
