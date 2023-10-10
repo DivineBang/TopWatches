@@ -1,81 +1,88 @@
 .offer{
     padding: 50px 0;
-}
-.offer__left{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 550px;
-    height: 100%;
-
-    span{
-        color: #1A3A32;
-        font-family: 'Ubuntu Mono';    
-    }
-    h1{
-        font-size: 40px; 
-        padding: 30px 0 17px;
-    }
-    .btn__set{
+    align-items: center;
+    .offer__left{
         display: flex;
-        margin-top: 50px;
-        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        width: 550px;
+        height: 100%;
 
-        .btn__offer_first{
-            width: 180px;
-            padding: 14px 37px;
-            border-radius: 50px;
-            background: #186049;
-            text-align: center;
-            color: #FFF;
-            font-size: 15px;
-
-            &:hover{
-                color: #000;
-                transition:  0.2s ease-in-out;
-                background: rgba(253, 126, 20, 0.70);
-    
-            }
+        span{
+            color: #1A3A32;
+            font-family: 'Ubuntu Mono';    
         }
-        
-        .btn__offer_second{
+        h1{
+            font-size: 40px; 
+            padding: 30px 0 17px;
+        }
+        .btn__set{
             display: flex;
-            align-items: center;
-            
-            gap: 10px;
-            width: 180px;
-            padding: 14px 29px 14px 23px;
-            border-radius: 50px;
-            background: #ffffff;
-            border: 0.5px solid #000;
-            text-align: center;
-            color: #000;
-            font-size: 15px;
+            margin-top: 50px;
+            gap: 20px;
 
-            &:hover{
-                color: #fff;
-                transition:  0.2s ease-in-out;
-                background: #000;
-    
-                path {
-                    stroke: #fff; 
-                    transition: stroke 0.2s ease-in-out;
+            .btn__offer_first{
+                width: 180px;
+                padding: 14px 37px;
+                border-radius: 50px;
+                background: #186049;
+                text-align: center;
+                color: #FFF;
+                font-size: 15px;
+
+                &:hover{
+                    color: #000;
+                    transition:  0.2s ease-in-out;
+                    background: rgba(253, 126, 20, 0.70);
+        
                 }
             }
-        }
+            
+            .btn__offer_second{
+                display: flex;
+                align-items: center;
+                
+                gap: 10px;
+                width: 180px;
+                padding: 14px 29px 14px 23px;
+                border-radius: 50px;
+                background: #ffffff;
+                border: 0.5px solid #000;
+                text-align: center;
+                color: #000;
+                font-size: 15px;
+
+                &:hover{
+                    color: #fff;
+                    transition:  0.2s ease-in-out;
+                    background: #000;
         
+                    path {
+                        stroke: #fff; 
+                        transition: stroke 0.2s ease-in-out;
+                    }
+                }
+            }
+            
+        }
     }
-}
-.offer__right{
-    width: 725px;
+    .offer__right{
+        width: 725px;
+    }
 }
 
 /*1200-1400*/
 @media screen and (max-width:1399px) {
-	
-    .offer__right{
-        width: 100%;
+	.offer{
+
+        .offer__left{
+            width: 550px;
+        }
+        
+
     }
+
    
 
     
@@ -90,6 +97,19 @@
 /*768-991*/
 @media screen and (max-width:991px){
 	
+    .offer{
+
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        .offer__left{
+            width: 90%;
+            align-items: center;
+            text-align: center;
+        }
+        
+
+    }
 }	
 
 /*576-767*/
